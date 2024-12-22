@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&family=Poppins:wght@400;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;  
+}
+ul
+{
+    list-style: none;
+}
+:root
+{
+    --brand:#045839;
+    --w:#fff;
+}
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top
+{
+    font-size: 14px;
+    line-height: 35px;
+}
+.gap
+{
+    gap: 10px;
+}
+.select
+{
+    background: transparent;
+    border: 1px solid;
+    border-color: transparent #ccc;
+    padding: 10px;
+}
+header
+{
+    background: var(--brand);
+    padding: 10px 0;
+}
+.text
+{
+    color: var(--w);
+}
+nav li
+{
+    font-weight: bold;
+}
+nav li a
+{
+    color: var(--w);
+    transition: 0.9s;
+}
+nav li a:hover
+{
+    color: orange;
+}
+.gap3
+{
+    gap:20px ;
+}
+nav span
+{
+    color: var(--w) ;
+    font-size: 32px;
+    display: none;
+}
+.banner
+{
+    height: 70vh;
+    background: url(../img/Rectangle\ 4.png);
+    color: var(--w);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text
+{
+   text-align: center;
+   max-width:60% ;
+}
+.banner-text h1
+{
+    font-size: 34px;
+}
+.btn
+{
+    background: var(--brand);
+    color: var(--w);
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px ;
+    transition: 0.9s;
+    border: 3px double var(--brand);
+}
+.btn:hover
+{
+    background: transparent;
+    border: 3px double orange;
+}
+.py
+{
+    padding: 30px 0;
+    text-align: center;
+}
+.line
+{
+    width: 100px;
+    height: 5px;
+    background: var(--brand);
+    margin: auto;
+}
+.pline
+{
+    width: 100px;
+    height: 5px;
+    background: var(--brand);
+    margin: 15px auto;
+}
+.py p 
+{
+    padding: 10px 0;
+}
+.box
+{
+    width: 280px;
+    position: relative;
+}
+.box-c
+{
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    color: var(--w);
+}
+.rating
+{
+    color: orange;
+}
+.rating2
+{
+    color: rgba(0, 0, 0, 0.452);
+}
+.w-100
+{
+ width: 100%;
+ height: 360px;
+ object-fit: cover;
+}
+.wrap
+{
+    flex-wrap: wrap;
+}
+footer
+{
+    background: var(--brand);
+    color: #78e6bd;
+    padding: 20px 0;
+}
+.fbox
+{
+  flex-basis: 30%;  
+}
+.fbox h4
+{
+    padding-bottom: 20px ;
+    color: var(--w);
+}
+.fbox li
+{
+    font-size: 14px ;
+    line-height: 22px;
+}
+.fbox1
+{
+    flex-basis:500px ;
+    padding-right: 25px;
+}
+.social li
+{
+ width: 35px;
+ height: 35px;
+ border-radius: 50%;
+ border: 1px solid #78e6bd;
+ text-align: center;
+ line-height: 35px;
+}
+.social ul
+{
+    display: flex;
+    gap: 20px;
+}
+.box2
+{
+    width: 353px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.fbox3
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box2 img
+{
+    margin: 5px ;
+}
+.btn2
+{
+    background: var(--brand);
+    color: var(--w);
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px ;
+    border: 3px double var(--brand);
+}
+.btn2:hover
+{
+    background: darkcyan;
+    border: 3px double darkgreen;
+}
+.ppy
+{
+    padding: 30px 0;
+    text-align: center;
+}
